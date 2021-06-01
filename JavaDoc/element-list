@@ -1,0 +1,7 @@
+unnamed package
+sudoku
+sudoku.Board
+sudoku.Board.Generator
+sudoku.Board.Tools
+sudoku.IO
+sudoku.Menu

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"sudoku"},{"l":"sudoku.Board"},{"l":"sudoku.Board.Generator"},{"l":"sudoku.Board.Tools"},{"l":"sudoku.IO"},{"l":"sudoku.Menu"}]

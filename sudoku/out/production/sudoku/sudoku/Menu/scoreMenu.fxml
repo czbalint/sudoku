@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.Menu.scoreMenuController">
+   <children>
+      <Button fx:id="backButton" cancelButton="true" layoutX="119.0" layoutY="476.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="40.0" prefWidth="143.0" text="Vissza" />
+      <TableView fx:id="loadTable" layoutX="45.0" layoutY="77.0" prefHeight="309.0" prefWidth="290.0">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="124.0" resizable="false" text="Név" />
+          <TableColumn fx:id="sizeCol" prefWidth="87.0" resizable="false" text="Méret" />
+            <TableColumn fx:id="timeCol" prefWidth="78.0" resizable="false" text="Idő" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="searchBox" layoutX="95.0" layoutY="26.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="190.0" promptText="Név keresés">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="searchButton" defaultButton="true" layoutX="19.0" layoutY="33.0" mnemonicParsing="false" onAction="#buttonAction" text="Keresés" />
+      <Button fx:id="resetButton" layoutX="291.0" layoutY="33.0" mnemonicParsing="false" onAction="#buttonAction" text="Reset" />
+      <RadioButton fx:id="r9" layoutX="110.0" layoutY="438.0" mnemonicParsing="false" />
+      <RadioButton fx:id="r6" layoutX="182.0" layoutY="438.0" mnemonicParsing="false" />
+      <RadioButton fx:id="r4" layoutX="253.0" layoutY="438.0" mnemonicParsing="false" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="96.0" layoutY="404.0" prefHeight="26.0" prefWidth="46.0" text="9x9" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="167.0" layoutY="404.0" prefHeight="26.0" prefWidth="46.0" text="6x6" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="239.0" layoutY="404.0" prefHeight="26.0" prefWidth="46.0" text="4x4" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</Pane>

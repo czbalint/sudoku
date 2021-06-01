@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.Board.pauseMenuController">
+   <children>
+      <Button fx:id="pauseButton" layoutX="35.0" layoutY="78.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="47.0" prefWidth="136.0" text="Folytatás" />
+      <Button fx:id="saveButton" layoutX="35.0" layoutY="139.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="47.0" prefWidth="136.0" text="Mentés" />
+      <Button fx:id="exitButton" layoutX="35.0" layoutY="198.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="47.0" prefWidth="136.0" text="Kilépés / Feladás" />
+      <Label layoutX="51.0" layoutY="30.0" text="Szünet">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,8 @@
+Linux alatt a program főkönyvtárában lévő javaFx librari használandó.
+
+javac: javac: javac src\sudoku\*.java src\sudoku\Board\*java src\sudoku\Board\Generator\*.java src\sudoku\Board\Tools\*.java src\sudoku\IO\*.java src\sudoku\Menu\*.java --module-path javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml -Xlint:unchecked
+
+java: java --module-path ..\javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml sudoku.Main
+
+Windows alatti javaFx et külön mappaba mellékelem
+
